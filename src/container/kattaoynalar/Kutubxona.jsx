@@ -7,7 +7,17 @@ import savatcha from "../../assets/icons/savatcha.svg"
 import bolim from "../../assets/icons/bolim.svg"
 import level from "../../assets/icons/level.svg"
 import yonalish from "../../assets/icons/yonalish.svg"
-import savatcha from "../../assets/icons/savatcha.svg"
+import shahmat2 from "../../assets/icons/shahmat2.svg"
+import yurakcha from "../../assets/icons/yurakcha.svg"
+import muallif from "../../assets/icons/muallif.svg"
+import star from "../../assets/icons/Star.svg"
+import kirish from "../../assets/icons/kirish2.svg"
+
+
+import fisher from "../../assets/pictures/fisher.png"
+import yoshlarp from "../../assets/pictures/yoshlarp.png"
+import frame from "../../assets/pictures/Frame.png"
+
 
 
 function Kutubxona() {
@@ -16,7 +26,7 @@ function Kutubxona() {
         <div className="breadcrumb">
             <img src="./home.svg" alt=""/>
             <p className="crumb1">Asosiy</p>
-            <img src="./shahmat2.svg" alt=""/>
+            <img src={shahmat2} alt=""/>
             <p className="crumb2">Kutubxona</p>
         </div>
       <div className="container">
@@ -71,9 +81,9 @@ function Kutubxona() {
         
             <div className="book-container">
             <div className="book-cover">
-                <img className="cover-image" src="/assets/images/fisher.png" alt="Book cover image"/>
+                <img className="cover-image" src={fisher} alt="Book cover image"/>
                 <div className="rating">
-                <img src="/assets/icons/star.svg" alt="svg icon"/>
+                <img src={star} alt="svg icon"/>
                 3.5
                 </div>
                 <div className="language">
@@ -91,21 +101,21 @@ function Kutubxona() {
                     </div>
                     <div className="mainmenu">
                         <div className="mainlevel">
-                            <img src="/assets/icons/level.svg" alt="svg icon"/>
+                            <img src={level} alt="svg icon"/>
                             <p>Boshlang'ich</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainyonalish">
-                            <img src="/assets/icons/yonalish.svg" alt="svg icon"/>
+                            <img src={yonalish} alt="svg icon"/>
                             <p>Tarix</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainmuallif">
-                            <img src="/assets/icons/muallif.svg" alt="svg icon"/>
+                            <img src={muallif} alt="svg icon"/>
                             <p>Robert Fisher</p>
                         </div>
                     </div>
@@ -115,14 +125,14 @@ function Kutubxona() {
                     <p>Savatchaga</p>
                 </div>
             </div>
-            <img src="/assets/icons/yurakcha.svg" alt="svg icon"/>
+            <img src={yurakcha} alt="svg icon"/>
             
         </div>
         <div className="book-container">
             <div className="book-cover">
-                <img className="cover-image" src="/assets/images/fisher.png" alt="Book cover image"/>
+                <img className="cover-image" src={fisher} alt="Book cover image"/>
                 <div className="rating">
-                <img src="/assets/icons/star.svg" alt="svg icon"/>
+                <img src={star} alt="svg icon"/>
                 3.5
                 </div>
                 <div className="language">
@@ -140,21 +150,21 @@ function Kutubxona() {
                     </div>
                     <div className="mainmenu">
                         <div className="mainlevel">
-                            <img src="/assets/icons/level.svg" alt="svg icon"/>
+                            <img src={level} alt="svg icon"/>
                             <p>Boshlang'ich</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainyonalish">
-                            <img src="/assets/icons/yonalish.svg" alt="svg icon"/>
+                            <img src={yonalish} alt="svg icon"/>
                             <p>Tarix</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainmuallif">
-                            <img src="/assets/icons/muallif.svg" alt="svg icon"/>
+                            <img src={muallif} alt="svg icon"/>
                             <p>Robert Fisher</p>
                         </div>
                     </div>
@@ -164,14 +174,14 @@ function Kutubxona() {
                     <p>Savatchaga</p>
                 </div>
             </div>
-            <img src="/assets/icons/yurakcha.svg" alt="svg icon"/>
+            <img src={yurakcha} alt="svg icon"/>
             
         </div>
         <div className="book-container">
             <div className="book-cover">
-                <img className="cover-image" src="/assets/images/fisher.png" alt="Book cover image"/>
+                <img className="cover-image" src={fisher} alt="Book cover image"/>
                 <div className="rating">
-                <img src="/assets/icons/star.svg" alt="svg icon"/>
+                <img src={star} alt="svg icon"/>
                 3.5
                 </div>
                 <div className="language">
@@ -189,21 +199,21 @@ function Kutubxona() {
                     </div>
                     <div className="mainmenu">
                         <div className="mainlevel">
-                            <img src="/assets/icons/level.svg" alt="svg icon"/>
+                            <img src={level} alt="svg icon"/>
                             <p>Boshlang'ich</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainyonalish">
-                            <img src="/assets/icons/yonalish.svg" alt="svg icon"/>
+                            <img src={yonalish} alt="svg icon"/>
                             <p>Tarix</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainmuallif">
-                            <img src="/assets/icons/muallif.svg" alt="svg icon"/>
+                            <img src={muallif} alt="svg icon"/>
                             <p>Robert Fisher</p>
                         </div>
                     </div>
@@ -213,14 +223,14 @@ function Kutubxona() {
                     <p>Savatchaga</p>
                 </div>
             </div>
-            <img src="/assets/icons/yurakcha.svg" alt="svg icon"/>
+            <img src={yurakcha} alt="svg icon"/>
             
         </div>
         <div className="book-container">
             <div className="book-cover">
-                <img className="cover-image" src="/assets/images/fisher.png" alt="Book cover image"/>
+                <img className="cover-image" src={fisher} alt="Book cover image"/>
                 <div className="rating">
-                <img src="/assets/icons/star.svg" alt="svg icon"/>
+                <img src={star} alt="svg icon"/>
                 3.5
                 </div>
                 <div className="language">
@@ -238,21 +248,21 @@ function Kutubxona() {
                     </div>
                     <div className="mainmenu">
                         <div className="mainlevel">
-                            <img src="/assets/icons/level.svg" alt="svg icon"/>
+                            <img src={level} alt="svg icon"/>
                             <p>Boshlang'ich</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainyonalish">
-                            <img src="/assets/icons/yonalish.svg" alt="svg icon"/>
+                            <img src={yonalish} alt="svg icon"/>
                             <p>Tarix</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainmuallif">
-                            <img src="/assets/icons/muallif.svg" alt="svg icon"/>
+                            <img src={muallif} alt="svg icon"/>
                             <p>Robert Fisher</p>
                         </div>
                     </div>
@@ -262,14 +272,14 @@ function Kutubxona() {
                     <p>Savatchaga</p>
                 </div>
             </div>
-            <img src="/assets/icons/yurakcha.svg" alt="svg icon"/>
+            <img src={yurakcha} alt="svg icon"/>
             
         </div>
         <div className="book-container">
             <div className="book-cover">
-                <img className="cover-image" src="/assets/images/fisher.png" alt="Book cover image"/>
+                <img className="cover-image" src={fisher} alt="Book cover image"/>
                 <div className="rating">
-                <img src="/assets/icons/star.svg" alt="svg icon"/>
+                <img src={star} alt="svg icon"/>
                 3.5
                 </div>
                 <div className="language">
@@ -287,21 +297,21 @@ function Kutubxona() {
                     </div>
                     <div className="mainmenu">
                         <div className="mainlevel">
-                            <img src="/assets/icons/level.svg" alt="svg icon"/>
+                            <img src={level} alt="svg icon"/>
                             <p>Boshlang'ich</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainyonalish">
-                            <img src="/assets/icons/yonalish.svg" alt="svg icon"/>
+                            <img src={yonalish} alt="svg icon"/>
                             <p>Tarix</p>
                         </div>
                         <div className="j">
                             
                         </div>
                         <div className="mainmuallif">
-                            <img src="/assets/icons/muallif.svg" alt="svg icon"/>
+                            <img src={muallif} alt="svg icon"/>
                             <p>Robert Fisher</p>
                         </div>
                     </div>
@@ -311,7 +321,7 @@ function Kutubxona() {
                     <p>Savatchaga</p>
                 </div>
             </div>
-            <img src="/assets/icons/yurakcha.svg" alt="svg icon"/>
+            <img src={yurakcha} alt="svg icon"/>
             
         </div>
 
@@ -324,14 +334,14 @@ function Kutubxona() {
         </div>
         <div className="boxs3">
             <div className="yportal">
-                <img src="./320x640 (1).png" alt=""/>
+                <img src={yoshlarp} alt=""/>
                 <div className="btn">
                     <p>Batafsil</p>
-                    <img src="./kirish.svg" alt=""/>
+                    <img src={kirish} alt=""/>
                 </div>
             </div>
             <div className="yishlar">
-                <img src="./Frame.png" alt=""/>
+                <img src={frame} alt=""/>
             </div>
         </div>
 

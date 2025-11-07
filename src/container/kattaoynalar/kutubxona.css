@@ -92,6 +92,7 @@
 
 .boxs2{
     width: 676px;
+    height: 1225px;
     display: grid;
     gap: 24px;
     margin-left: 17px;
@@ -208,6 +209,7 @@
 
 }
 .texts .mainbar .mainmenu>div{
+    align-items: self-start;
     display: flex;
     gap: 2px;
 }
@@ -312,16 +314,7 @@
     left: 632px;
 }
 
-.davomi{
-    width: 144px;
-    height: 40px;
-    background-color: rgba(247, 249, 250, 0.1);
-    border: 1px solid rgba(247, 249, 250, 0.3);
-    border-radius: 8px;
-    color: #F7F9FA;
-    text-align: center;
-    align-content: center;
-}
+
 /* ------------------------------------------ */
 
 .boxs3{

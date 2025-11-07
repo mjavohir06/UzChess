@@ -74,6 +74,18 @@ p{
     line-height: 130%;
 }
 
+/* -------------------Davomi-yoki-ko'proq-------------- */
+.davomi{
+    width: 144px;
+    height: 40px;
+    background-color: rgba(247, 249, 250, 0.1);
+    border: 1px solid rgba(247, 249, 250, 0.3);
+    border-radius: 8px;
+    color: #F7F9FA;
+    text-align: center;
+    align-content: center;
+}
+
 
 /* ------------------breadcrumb------------- */
 
