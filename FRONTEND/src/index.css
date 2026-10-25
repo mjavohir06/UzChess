@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #111315;
+    cursor: pointer;
+}
+
+.containermax {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.Headermax {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------------------Scroll---------------- */
+::-webkit-scrollbar {
+    display: none;
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #7f5cff, #4bbaff);
+    border-radius: 20px;
+    border: 3px solid #0f0f0f; 
+    box-shadow: 0 0 10px rgba(123, 100, 255, 0.7);
+    transition: 0.3s;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #9f7dff, #6dd6ff);
+    box-shadow: 0 0 15px rgba(150, 130, 255, 1);
+}
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+p,span {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Titlelar uchun css */
+.at {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    color: #F7F9FA;
+}
+
+/* kichiroq titlar uchun */
+.yt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9DA1A3;
+    line-height: 130%;
+}
+
+/* font-size 16 bo'lganlari */
+.p12 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #F7F9FA;
+}
+
+.p16 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F7F9FA;
+}
+
+/* font-size 14 bo'lganlari */
+.p14 {
+    font-size: 14px;
+    color: #FCFCFC;
+    font-weight: 400;
+}
+
+.p15 {
+    font-size: 15px;
+    color: #FCFCFC;
+    font-weight: 400;
+}
+
+.p20 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #EFEFEF;
+}
+
+.p24 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 130%;
+}
+
+.p28 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #EFEFEF;
+}
+
+.p32 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #EFEFEF;
+    line-height: 130%;
+}
+
+.p51 {
+    font-size: 51px;
+    font-weight: 700;
+    color: #EFEFEF;
+    line-height: 130%;
+}
+
+
+
+.p140 {
+    font-size: 140px;
+    font-weight: 900;
+    color: #EFEFEF;
+}
+
+
+/* ----------Qizil-text--------------- */
+.pr13 {
+    font-size: 13px;
+    color: #DC2D2D;
+}
+
+.pr14 {
+    font-size: 14px;
+    color: #DC2D2D;
+}
+
+/* ---------Yashil-text---------------- */
+.pg13 {
+    font-size: 13px;
+    color: #82CC27;
+}
+
+.pg14 {
+    font-size: 14px;
+    color: #82CC27;
+}
+
+.pg16 {
+    font-size: 16px;
+    color: #82CC27;
+}
+.pg20 {
+    font-size: 20px;
+    color: #82CC27;
+}
+
+/* ----------Sariq-text-------------- */
+.py13 {
+    font-size: 13px;
+    color: #E0B531;
+}
+
+.py14 {
+    font-size: 14px;
+    color: #E0B531;
+}
+
+.py16 {
+    font-size: 16px;
+    color: #E0B531;
+}
+
+
+
+/* ----------------Textlar-uchun-------------- */
+.t12 {
+    font-size: 12px;
+    color: #9D9FA1;
+    font-weight: 400;
+    letter-spacing: 6%;
+}
+
+.t13 {
+    font-size: 13px;
+    color: #6F767E;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.t14 {
+    font-size: 14px;
+    color: #6F767E;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+
+.t15 {
+    font-size: 15px;
+    color: rgba(157, 161, 163, 1);
+}
+
+.t16 {
+    font-size: 16px;
+    line-height: 140%;
+    color: #C2C4C5;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.text16 {
+    font-size: 16px;
+    line-height: 140%;
+    color: #C2C4C5;
+    font-weight: 400;
+}
+
+.t18 {
+    font-size: 18px;
+    color: #C2C4C5;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.text18 {
+    font-size: 18px;
+    color: #C2C4C5;
+    font-weight: 400;
+}
+
+.t20 {
+    font-size: 20px;
+    color: #ABABAF;
+    line-height: 140%;
+}
+/* ------2-qatordan-keyin-...-qo'yvoradi------ */
+.q1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* nechta qator */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.q2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* nechta qator */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+
+
+/* --------input numberni decorationini o'zgartirish------------- */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+/* -------------------Davomi-yoki-ko'proq-------------- */
+.davomi {
+    width: 144px;
+    height: 40px;
+    background-color: rgba(247, 249, 250, 0.1);
+    border: 1px solid rgba(247, 249, 250, 0.3);
+    border-radius: 8px;
+    color: #F7F9FA;
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+}
+
+
+/* ----------------------Ko'k-button------------- */
+.bluebtn {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c92e0;
+    border-radius: 8px;
+}
+
+.redbtn{
+    width: max-content;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(220, 45, 45, 1);
+    border-radius: 8px;
+    padding: 0 19.5px;
+    gap: 8px;
+}
+.greybtn{
+    width: max-content;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0 19.5px;
+    gap: 8px;
+}
+
+/* ------------------breadcrumb------------- */
+
+.breadcrumb {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    div {
+        display: flex;
+        gap: 8px;
+    }
+
+    .crumb1 {
+        color: #6D7274;
+        letter-spacing: -0.8px;
+        font-size: 16px;
+    }
+
+    .crumb2 {
+        color: #F7F9FA;
+        letter-spacing: -0.8px;
+        font-size: 16px;
+    }
+}
+
+.breadcrumb>img {
+    width: 10px;
+}
+
+.breadcrumb>img:first-child {
+    width: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Bu title va barchasi > kabi joylar uchun html asosi:
+        <div className="reytingtitle">
+            <p className='at'>title</p>
+            <div className="kr">
+              <p className='yt'>Barchasi</p>
+              <img src={korish} alt="" />
+            </div>
+        </div>
+*/
+
+.reytingtitle {
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .kr {
+        width: auto;
+        height: 24px;
+        display: flex;
+        align-items: center;
+
+        .korish {
+            color: #9DA1A3;
+        }
+    }
+
+    .kr:hover {
+        p {
+            color: #1C92E0;
+        }
+
+        .korish {
+            color: #1C92E0;
+        }
+    }
+}

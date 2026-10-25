@@ -1,0 +1,281 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 24px;
+
+    .ustun1 {
+        width: 326px;
+
+        .Reytinglogo {
+            width: 326px;
+            height: 100px;
+            border-radius: 8px;
+            background-color: rgba(26, 29, 31, 1);
+            border: 1px solid rgba(35, 38, 39, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            .KichikLogo {
+                width: 34px;
+                height: 34px;
+                transform: translateY(3px);
+                filter: drop-shadow(0 0 25px rgba(28, 146, 224, 1));
+            }
+        }
+    }
+
+    .ustun23 {
+        width: 1026px;
+        height: auto;
+
+        .leaderboard {
+            width: 1026px;
+            background: #15181b;
+            border-radius: 12px;
+            overflow: hidden;
+            color: #fff;
+            font-family: Inter, sans-serif;
+
+            .lb-header,
+            .lb-row {
+                display: grid;
+                grid-template-columns: 60px 1fr 160px 160px 160px;
+                align-items: center;
+                padding: 0 20px;
+            }
+
+            .lb-header {
+                height: 48px;
+                background: #1c2024;
+                font-size: 12px;
+                color: #9aa0a6;
+                letter-spacing: 1px;
+            }
+
+            .lb-row {
+                height: 54px;
+                border-top: 1px solid #22262b;
+                font-size: 14px;
+            }
+
+            .lb-row:hover {
+                background: #1b1f23;
+            }
+
+            .trpt {
+                background-color: transparent;
+            }
+
+            .rank {
+                color: #9aa0a6;
+            }
+
+            .name {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .flag {
+                font-size: 16px;
+            }
+
+            .rating {
+                display: flex;
+                gap: 6px;
+            }
+
+            .plus {
+                color: #7ddc3a;
+                font-size: 12px;
+            }
+
+            .pagination {
+                display: flex;
+                justify-content: center;
+                gap: 6px;
+                padding: 16px;
+                background: #15181b;
+            }
+
+            .pagination button {
+                width: 32px;
+                height: 32px;
+                border-radius: 8px;
+                border: none;
+                background: #1c2024;
+                color: #9aa0a6;
+                cursor: pointer;
+            }
+
+            .pagination button:hover {
+                background: #2a2f34;
+            }
+
+            .pagination button.active {
+                background: #0d6efd;
+                color: #fff;
+            }
+
+            .pagination button:disabled {
+                opacity: 0.4;
+                cursor: default;
+            }
+        }
+
+        .games-table {
+            width: 1026px;
+            background: #14181c;
+            border-radius: 12px;
+            overflow: hidden;
+            color: #fff;
+            font-family: Inter, sans-serif;
+
+            
+            .gt-header,
+            .gt-row {
+                display: grid;
+                grid-template-columns: 50px 240px 120px 80px 120px 100px 160px;
+                align-items: center;
+                padding: 0 16px;
+            }
+    
+            .gt-header {
+                height: 48px;
+                background: #1c2024;
+                font-size: 12px;
+                color: #9aa0a6;
+            }
+    
+            .gt-row {
+                height: 84px;
+                border-top: 1px solid #22262b;
+            }
+    
+            .gt-row:hover {
+                background: #1b1f23;
+            }
+    
+            .players div,
+            .ratings div,
+            .scores div {
+                line-height: 1.4;
+            }
+    
+            .players {
+                font-weight: 500;
+            }
+    
+            .ratings,
+            .scores {
+                color: #cfd3d7;
+            }
+    
+            .type {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                font-weight: 500;
+            }
+    
+            .type.rapid {
+                color: #ff4d4f;
+            }
+    
+            .type.blitz {
+                color: #fadb14;
+            }
+    
+            .type.bullet {
+                color: #52c41a;
+            }
+    
+            /* PAGINATION */
+            .pagination {
+                display: flex;
+                justify-content: center;
+                gap: 6px;
+                padding: 16px;
+            }
+    
+            .pagination button {
+                width: 32px;
+                height: 32px;
+                border-radius: 8px;
+                border: none;
+                background: #1c2024;
+                color: #9aa0a6;
+                cursor: pointer;
+            }
+    
+            .pagination button:hover {
+                background: #2a2f34;
+            }
+    
+            .pagination button.active {
+                background: #0d6efd;
+                color: #fff;
+            }
+    
+            .pagination button:disabled {
+                opacity: 0.4;
+            }
+        }
+
+
+
+
+    }
+
+
+
+    .ustun12 {
+        width: 1020px;
+        height: auto;
+        display: grid;
+        align-content: start;
+
+        .live_video {
+            width: 100%;
+            height: 654px;
+            background-color: rgba(26, 29, 31, 1);
+            border-radius: 12px;
+            border: 1px solid rgba(31, 39, 42, 1);
+            padding: 20px;
+            display: grid;
+            align-content: start;
+            gap: 24px;
+
+            .title {
+                width: 100%;
+                height: 36px;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .video {
+                width: 100%;
+                height: 554px;
+
+                .videoframe {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 12px;
+                    border: 1px solid rgba(247, 249, 250, 0.1);
+                }
+            }
+        }
+    }
+
+    .ustun3 {
+        width: 326px;
+        height: auto;
+        display: grid;
+        align-content: start;
+
+    }
+}

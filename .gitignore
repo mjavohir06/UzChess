@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+!.env.example
+BACKEND2/
+uzchess-nestjs-main/
+uzchess-nextjs-main/

@@ -1,0 +1,342 @@
+.topkursbox{
+    width: 326px;
+    height: 470px;
+    background-color: #1A1D1F;
+    border-radius: 8px;
+    display: grid;
+    padding-top: 16px;
+
+    .reytingtitle{
+        padding:0 16px;
+    }
+
+    .topkursbar{
+        width: 100%;
+        height: 407px;
+
+        .topkurs{
+            width: 100%;
+            height: 104px;
+            padding: 16px 28px;
+            border-bottom: 1px solid #272B30;
+            display: flex;
+            gap: 10px;
+
+            .kursimg{
+                width: 80px;
+                height: 80px;
+                overflow: clip;
+
+                img{
+                    height: 80px;
+                }
+            }
+            .textbar{
+                width: 100%;
+                height: 100%;
+
+
+                .title{
+                    width: 100%;
+                    height: 50%;
+                }
+                .past{
+                    width: 100%;
+                    height: 50%;
+
+                    div{
+                        display: flex;
+                        gap: 4px;
+                    }
+                }
+            }
+
+        }
+        .topkurs:nth-child(1){
+            margin-top: 0;
+        }
+        .topkurs:nth-child(4){
+            border: none;
+        }
+        .topkurs:hover{
+            background-color: #13181C;
+
+            .textbar{
+                .title p{
+                    color: #1C92E0;
+                }
+            }
+        }
+
+    }
+}
+
+.loyiharivoji{
+    width: 326px;
+    height: 82px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    .img{
+        width: 42px;
+        height: 42px;
+    }
+    .textbar{
+        width: 100%;
+        height: 40px;
+        display: grid;
+        align-content: space-between;
+    }
+    .soon{
+        width: 41px;
+        height: 16px;
+        border-radius: 4px;
+        background-color: #1C92E0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 22px;
+        left: 224px;
+
+
+    }
+
+
+}
+
+.TopKitoblar{
+    width: 100%;
+    height: 470px;
+    border-radius: 8px;
+    background-color: #1A1D1F;
+
+    .reytingtitle{
+        margin-top: 16px;
+        padding: 0 16px;
+    }
+    .Kitobroyhat{
+        width: 100%;
+        height: 395px;
+        
+        
+        .kitob{
+            width: 100%;
+            height: 105px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #1F272A;
+            gap: 10px;
+
+            .img{
+                width: 54px;
+                height: 80px;
+                overflow: hidden;
+                border-radius: 8px;
+
+                img{
+                    height: 80px;
+                }
+            }
+            .textbar{
+                width: 100%;
+                height: 100%;
+
+                .title{
+                    width: 100%;
+                    height: 50%;
+                    padding-top: 2px;
+
+                }
+                .muallif{
+                    width: 100%;
+                    height: 50%;
+                }
+            }
+        }
+        .kitob:hover{
+            background-color: #13181C;
+
+            .textbar>.title>p{
+                color: #1C92E0;
+            }
+        }
+    }
+}
+
+.tolov{
+    width: 326px;
+    height: 364px;
+    border-radius: 16px;
+    background-color: rgba(11, 20, 24, 0.8);
+    border: 1px solid #1F272A;
+    padding: 16px 20px;
+    display: grid;
+    align-content: space-between;
+
+    .narxlar{
+        width: 294px;
+        height: 120px;
+        display: grid;
+        gap: 8px;
+        border-bottom: 1px solid #1D2529;
+
+        div{
+            width: 100%;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+
+            p:last-child{
+                text-align: end;
+            }
+        }
+    }
+    .jami{
+        
+        width: 100%;
+        height: 42px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #1D2529;
+
+        p:last-child{
+            text-align: end;
+        }
+    }
+    .kupon{
+        width: 100%;
+        height: 66px;
+        
+        display: grid;
+        gap: 8px;
+
+        input{
+            width: 100%;
+            height: 44px;
+            border-radius: 12px;
+            background-color: #13181C;
+            border: 1px solid #454F54;
+            padding-left: 12px;
+            color: #454F54;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        input:focus{
+            color: white;
+        }
+
+    }
+    .rasmiylashtirish{
+        width: 100%;
+        height: 50px;
+        background-color: #1C92E0;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 24px;
+        }
+    }
+}
+
+.containerBildir{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+
+    .bildirbox{
+        width: 475px;
+        height: 100%;
+        background-color: #1A1D1F;
+        overflow-y: scroll;
+        display: grid;
+        align-content: start;
+        gap: 24px;
+
+        .header{
+            width: 475px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(247, 249, 250, 0.16);
+
+        }
+        .bildirnomalar{
+            width: 100%;
+            height: auto;
+            padding: 0 24px;
+            display: grid;
+            gap: 16px;
+            align-content: start;
+            margin-bottom: 40px;
+
+            .bildirdiv{
+                width: 100%;
+                /* min-height: 340px; */
+                border-radius: 12px;
+                display: grid;
+                gap: 12px;
+                align-content: start;
+                background-color: #111315;
+                padding: 16px;
+                border: 1px solid transparent;
+                
+
+                .img{
+                    width: 100%;
+                    height: 180px;
+                    border-radius: 8px;
+                    overflow: clip;
+                    
+                    img{
+                        width: 100%;
+                    }
+                }
+                .btn{
+                    width: 100%;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1px;
+
+                    .faol{
+                        color: #1C92E0;
+                    }
+                }
+                .btn:hover{
+
+                    .faol{
+                        color: #164B6F;
+                    }
+                }
+
+            }
+            .bildirdiv:hover{
+                border: 1px solid #1C92E0;
+                filter: drop-shadow(0 0 20px #1c92e069);
+            }
+        }
+    }
+    .parda{
+        width: calc(100% - 475px);
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+    }
+}
